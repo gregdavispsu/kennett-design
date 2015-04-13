@@ -1,0 +1,18 @@
+0.0.1 - 2011-07-19 - Chris Jean
+	Early version
+0.0.2 - 2012-09-21 - Cody Smith
+	Fixed Module Stacking
+	Updated header styles
+	Cleaned up stylesheet
+0.0.3 - 2012-09-25 - Cody Smith
+	Updated Module Styling
+	Fixed styling on footer
+1.0.0 - 2012-09-26
+	Initial Release Version
+4.0.0 - 2012-11-29 - Cody Smith
+	Added Support for Builder Responsive
+	Changed Styling to support Builder Responsive
+4.0.1 - 2012-12-26 - Cody Smith
+	Fixed issue with outer border/box shadow
+4.0.2 - 2012-12-28 - Cody Smith
+	Removed blank archive.php from child theme

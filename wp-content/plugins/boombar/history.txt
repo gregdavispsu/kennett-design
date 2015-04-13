@@ -1,0 +1,87 @@
+1.1.21 - 2015-04-01 - Glenn Ansley
+	Decouple setcookie and is_first_visit functionality.
+	Don't check for existence of cookie twice on every pageload
+	Make 'First Visit' condition return true for 24 hours after first visit
+1.1.20 - 2015-02-12 - Glenn Ansley
+	Bug Fix: Undefined var in frontend-global.js
+1.1.19 - 2014-11-14 - Packaging Bot (lib/updater)
+	Enhancement: Reduced caching to allow updates to appear more quickly.
+	Enhancement: Authenticating users now uses the new authentication system.
+1.1.18 - 2014-09-15 - Glenn Ansley
+	Use plugin_dir_url() for the plugin's URL
+1.1.17 - 2014-03-24 - Glenn Ansley
+	Use WP function for getting login URL
+	Hide password on load so that browser addons like LastPass don't prevent it from being hidden with JS
+1.1.16 - 2014-02-03 - Packaging Bot (lib/updater)
+	Bug Fix: Licensing on SSL-enabled sites now works properly.
+1.1.15 - 2014-01-22 - Glenn Ansley
+	Bug Fix: Temp fix for bug that can freeze site when scheduling multiple bars: see http://cl.ly/170G1C0g0V1I
+1.1.14 - 2013-12-19 - Packaging Bot (lib/updater)
+	Bug Fix: Licensing will now be universal across all sites of a multisite network. This means that you will only need to license on one site to have the license apply across the entire network.
+1.1.13 - 2013-12-18 - Packaging Bot (lib/updater)
+	Bug Fix: Removed unneeded check on package-info.ithemes.com which was causing performance issues on some sites.
+1.1.12 - 2013-12-13 - Packaging Bot (lib/updater)
+	Enhancement: Recently updated plugins and themes no longer report that an update is available.
+	Enhancement: Added alternate line styling to the listings on the licensing page.
+	Enhancement: Products with iThemes in the name will now properly capitalize the name.
+	Enhancement: The updater and licensing system now handle iThemes server outages without causing long page delays or by reporting confusing error messages.
+1.1.11 - 2013-12-12 - Glenn Ansley
+	Fixed PHP warning
+1.1.10 - 2013-12-11 - Justin Kopepasah
+	Updated menu icon for 3.8
+1.1.9 - 2013-11-05 - Glenn Ansley
+	Bug Fix: Prefix custom CSS class to prevent plugin conflicts
+1.1.7 - 2013-10-07 - Packaging Bot (lib/updater)
+	Bug Fix: Corrected another source of the following warning which occur immediate after updating the plugin or theme: Warning: require_once(/api.php) [function.require-once]: failed to open stream: No such file or directory
+1.1.8 - 2013-10-28 - Packaging Bot (lib/updater)
+	Enhancement: Added a "Quick Release Updates" setting to the bottom of the licensing page. Enabling this option allows the site to receive automatic update notices for product quick releases (releases that do not have automatic update support by default).
+	Enhancement: Changed how the licensing page works on Multisite. Now it will appear at Settings > iThemes Licensing in the network admin Dashboard and at Settings > iThemes Licensing on sites when the current user is a network admin. This prevents exposing the licensing page to users that don't are not super users and thus should not be performing updates. As this update makes the functionality of the "Licensing Page Access" setting obsolete, the setting has been removed.
+	Enhancement: Using the ithemes-updater-force-minor-update query string variable will now force a data flush, allowing any available quick release updates to appear instantly.
+	Enhancement: Added "License" links to the Plugins and Themes pages for the Network Admin Dashboard of multisite installs.
+1.1.6 - 2013-10-04 - Packaging Bot (lib/updater)
+	Enhancement: When releases with four version digits are released (such as 2.1.0.3), by default, the updater will not offer to update if just this last digit is updated. For instance, it will not automatically offer to update 2.1.0.1 to 2.1.0.3; rather, an automatic upgrade will become available when version 2.1.1 or greater is released. If you wish to force an update to these versions, you can add ithemes-updater-force-minor-update=1 to an admin page request (such as http://domain.com/wp-admin/index.php?ithemes-updater-force-minor-update=1) in order to force the updater make these releases available for an hour. If the update is not performed within the hour, the updater reverts back to default behavior.
+	Bug Fix: Corrected source of the following error when updating: Download failed. SSL certificate problem, verify that the CA cert is OK. Details: error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed
+	Bug Fix: Corrected source of the following warning: Warning: require_once(/api.php) [function.require-once]: failed to open stream: No such file or directory
+1.1.5 - 2013-10-02 - Packaging Bot (lib/updater)
+	Big rewrite to the updater in order to make the code more flexible. This improves compatibility with plugins that allow for remote updating of plugins and themes.
+	The updater now supports providing changelog details for plugins and themes that have updates available. These details can be viewed by clicking the "View version **** details" link for the appropriate plugin or theme.
+1.1.4 - 2013-09-20 - Packaging Bot
+	Updated lib/updater to version 1.0.3
+1.1.2 - 2013-06-21 - Packaging Bot
+	Updated lib/updater to version 1.0.2
+1.1.1 - 2013-06-21 - Chris Jean
+	Bug Fixes
+		- Fixed the link to the video on generating the Twitter API keys.
+1.1.0 - 2013-06-21 - Chris Jean
+	Enhancements
+		- Updated Twitter functionality to support the 1.1 version of Twitter's API, allowing for fetching of tweets now that the 1.0 version of the API has been disabled.
+		- Error messages when tweets cannot be fetched are now only displayed to users that have the ability to modify the plugin's settings.
+		- Error messages when tweets cannot be fetched are now very specific to indicate exactly what caused the error and if it is a configuration issue or an issue with Twitter's servers.
+	New Features
+		- Added a settings page for supplying the authentication keys required for integration with Twitter's API.
+1.0.5 - 2013-05-01 - Packaging Bot
+	Updated lib/updater to version 1.0.1
+1.0.4 - 2013-04-19
+	Enhancements
+		- New iThemes updater
+1.0.3 - 2013-03-26 - Glenn Ansley
+	Bug Fixes
+		- CSS tweaks for Flat styles
+		- CSS tweaks for upcoming twentythirteen theme
+	New Features
+		- Date Picker for start and end dates
+		- Ability to automatically set a bar as the new default on the start
+		  date
+		- New seasonal styles for spring
+1.0.2 - 2013-01-18 - Glenn Ansley
+	Bug Fixes
+		- IE specific CSS rules for bar gradients
+1.0.1 - 2012-12-11 - Glenn Ansley
+	Bug Fixes
+		- Add body_class via JS if theme hasn't done this with PHP
+		- Cross browser compat for JS (fixes bad static bars)
+		- Special fixes for several iThemes themes
+	New Feature
+		- Ability to set link targets to _self or _blank
+1.0.0 - 2012-12-05 - Glenn Ansley
+	Initial Release. #BOOM

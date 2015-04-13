@@ -1,0 +1,29 @@
+#it_boom_bar_dev_tools {
+	padding: 10px;
+	background: rgba(238, 238, 238, 0.85);
+	border: 2px solid #777;
+	position:absolute;
+	top: 200px;
+	z-index: 99997;
+	font-size: smaller;
+}
+#it_boom_bar_dev_tools_handle {
+	padding: 5px;
+	margin: -10px -10px 5px -10px;
+	background: #7E7E7E;
+	color: #fff;
+}
+#it_boom_bar_dev_tools .setting {
+	font-weight: bold;
+	min-width: 150px;
+}
+#it_boom_bar_dev_tools form table tr th.heading {
+	font-weight: bold;
+	text-decoration: underline;
+}
+#it_boom_bar_dev_tools form input[type="submit"] {
+	float:right;
+}
+#it_boom_bar_dev_tools .margins-output {
+	text-decoration: underline;
+}

@@ -1,0 +1,102 @@
+2.0.0 - 2010-04-23 - Chris Jean
+	Complete rebuild of the child theme
+	
+	Removed images/nav_bg.jpg
+	Added images/nav_bg.png
+	Updated style.css:
+		Rebuilt from the 2.4.0 release version of Builder
+2.0.1 - 2010-04-26
+	Updated style.css:
+		Changed all references widget title selectors from
+			.builder-module-sidebar .widget h4
+		to
+			.builder-module-sidebar h4.widget-title
+2.0.2 - 2010-04-28
+	Improved gallery styling using inline-block display type
+	
+	Updated style.css:
+		Modified:
+			.post .gallery-item
+			.post .gallery-item img
+2.0.3 - 2010-06-02
+	Updated to match 2.4.7 release of Builder
+	
+	Updated style.css
+2.0.4 - 2010-08-02
+	Updated to match Builder version 2.4.23
+2.6.1 - 2010-10-06 - Chris Jean
+	Updated to match Builder version 2.6.1
+	
+	Updated style.css:
+		Changed instances of:
+			line-height: 1.5em;
+		to:
+			line-height: 1.5;
+		
+		Added the following to the "table, img, input, textarea, select" selector:
+			height: auto;
+2.6.2 - 2010-10-13 - Matt Danner
+	Adding new screenshot
+2.7.0 - 2010-12-15 - Chris Jean
+	Updated to match Builder version 2.7.0
+	
+	Updated style.css:
+		Removed ".nocomments" rule
+2.8.0 - 2011-02-22 - Chris Jean
+	Updated to match Builder version 2.8.0
+	
+	Updated style.css:
+		Removed "a:focus, a:hover" rule
+		Added "a:focus" rule
+		Changed "a:hover" rule color to "#000000"
+		Removed "width: auto !important;" and "height: auto !important;" from
+			rule ".hentry img"
+3.1.4 - 2011-08-23 - Chris Jean
+	Updated to match Builder verison 3.1.4
+	Removed unneeded images in the images directory
+	Added rtl.css for right-to-left text support
+	Added missing images referred to in stylesheet
+	
+	Added:
+		rtl.css
+		images/category-bg.png
+		images/comments-bg.png
+	Updated:
+		style.css:
+			Changed ".paging" to ".loop-utility"
+			Removed "text-align: left;" rules from all selectors except the ".hentry .gallery-item" selector
+			Added "blockquote blockquote" rule to prevent nested blockquotes from increasing in size
+	Removed:
+		images/arrow.gif
+		images/bg.jpg
+		images/body-bg.gif
+		images/comments.png
+		images/favicon.ico
+		images/folder.png
+		images/menu-active-bg.gif
+		images/menu-bg.gif
+		images/nav_bg.png
+		images/nav_bg_hover.jpg
+		images/widget_bg.jpg
+		images/widget_bg_corner.jpg
+3.2.1 - 2011-10-10 - Chris Jean
+	Updated to match Builder 3.2.1
+	
+	Updated:
+		style.css:
+			Added ".builder-module-navigation li.current-menu-item a" selector
+			alongside the ".builder-module-navigation li.current-cat a" selector.
+4.0.0 - 2012-10-18 - Chris Jean
+	Updated to match Builder 4.0.0.
+	Added Builder Responsive support and styling.
+	
+	Updated
+		functions.php:
+			Added theme support for "builder-responsive".
+	Updated:
+		style.css:
+			Numerous changes on all the basic and specific module stylings.
+			Added responsive section at the bottom.
+4.0.1 - 2012-10-22 - Cody Smith
+	Removed responsive section at the bottom of style.css
+	Builder Core now features this styling.

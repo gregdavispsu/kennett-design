@@ -1,0 +1,1039 @@
+# Copyright (C) 2015 iThemes Boom Bar
+# This file is distributed under the same license as the iThemes Boom Bar package.
+msgid ""
+msgstr ""
+"Project-Id-Version: iThemes Boom Bar 1.1.21\n"
+"Report-Msgid-Bugs-To: http://ithemes.com/forum/\n"
+"POT-Creation-Date: 2015-04-01 16:06:24+00:00\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: boombar.php:129
+msgid "You are using the Boom Bar plugin built by iThemes!"
+msgstr ""
+
+#: boombar.php:130
+msgid "Learn more"
+msgstr ""
+
+#: boombar.php:499
+msgid "username"
+msgstr ""
+
+#: boombar.php:529
+msgid "Error: %s"
+msgstr ""
+
+#: classes/admin.php:225
+msgid "Lime Green"
+msgstr ""
+
+#: classes/admin.php:226
+msgid "Silver"
+msgstr ""
+
+#: classes/admin.php:227
+msgid "Light"
+msgstr ""
+
+#: classes/admin.php:228
+msgid "Dark Inset"
+msgstr ""
+
+#: classes/admin.php:229
+msgid "Dark Flat"
+msgstr ""
+
+#: classes/admin.php:230
+msgid "Custom"
+msgstr ""
+
+#: classes/admin.php:231
+msgid "Seasonal"
+msgstr ""
+
+#: classes/admin.php:254
+msgid "until next page load"
+msgstr ""
+
+#: classes/admin.php:255
+msgid "for 10 Seconds [for testing]"
+msgstr ""
+
+#: classes/admin.php:256
+msgid "for 1 Hour"
+msgstr ""
+
+#: classes/admin.php:257
+msgid "for 1 Day"
+msgstr ""
+
+#: classes/admin.php:258
+msgid "for 1 Week"
+msgstr ""
+
+#: classes/admin.php:259
+msgid "forever"
+msgstr ""
+
+#: classes/admin.php:280 classes/admin.php:306
+msgid "Yes"
+msgstr ""
+
+#: classes/admin.php:281 classes/admin.php:305
+msgid "No"
+msgstr ""
+
+#: classes/admin.php:328
+msgid "Use Theme Styles"
+msgstr ""
+
+#: classes/admin.php:447
+msgid "The bar title cannot be left empty"
+msgstr ""
+
+#: classes/admin.php:449
+msgid "Please provide a username for the Twitter account"
+msgstr ""
+
+#: classes/admin.php:451
+msgid "The bar text cannot be left blank."
+msgstr ""
+
+#: classes/admin.php:453
+msgid "The bar link cannot have a blank URL."
+msgstr ""
+
+#: classes/admin.php:455
+msgid "The bar's priority must be a number greater than 0"
+msgstr ""
+
+#: classes/admin.php:476
+msgid "Boom Bar"
+msgstr ""
+
+#: classes/admin.php:514
+msgid "No Default Bar"
+msgstr ""
+
+#: classes/admin.php:517
+msgid ""
+"Use the below select box to override the default Boom Bar for this page."
+msgstr ""
+
+#: classes/admin.php:520
+msgid "No Boom Bar"
+msgstr ""
+
+#: classes/admin.php:521
+msgid "Default Boom Bar"
+msgstr ""
+
+#: classes/admin.php:547
+msgid "Bar updated. <a href=\"%s\">View bar</a>"
+msgstr ""
+
+#: classes/admin.php:548
+msgid "Custom field updated."
+msgstr ""
+
+#: classes/admin.php:549
+msgid "Custom field deleted."
+msgstr ""
+
+#: classes/admin.php:550
+msgid "Bar updated."
+msgstr ""
+
+#: classes/admin.php:551
+msgid "Bar restored to revision from %s"
+msgstr ""
+
+#: classes/admin.php:552
+msgid "Bar published. <a href=\"%s\">View bar</a>"
+msgstr ""
+
+#: classes/admin.php:553
+msgid "Bar saved."
+msgstr ""
+
+#: classes/admin.php:554
+msgid "Bar submitted."
+msgstr ""
+
+#: classes/admin.php:555
+msgid "Bar scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#. translators: Publish box date format, see http:php.net/date
+#: classes/admin.php:555 views/publish-meta-box.php:109
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: classes/admin.php:556
+msgid "Bar draft updated."
+msgstr ""
+
+#: classes/bars.php:71
+msgctxt "post type general name"
+msgid "Bars"
+msgstr ""
+
+#: classes/bars.php:72
+msgctxt "singular name"
+msgid "Bar"
+msgstr ""
+
+#: classes/bars.php:73
+msgctxt "name in admin menu"
+msgid "Boom Bar"
+msgstr ""
+
+#: classes/bars.php:74
+msgctxt "add new from admin bar"
+msgid "Boom Bar"
+msgstr ""
+
+#: classes/bars.php:75
+msgctxt "existing bars"
+msgid "Existing Bars"
+msgstr ""
+
+#: classes/bars.php:76
+msgctxt "add new bar"
+msgid "Add New Bar"
+msgstr ""
+
+#: classes/bars.php:77
+msgctxt "add new page title"
+msgid "Add New Bar"
+msgstr ""
+
+#: classes/bars.php:78
+msgctxt "edit bar"
+msgid "Edit Bar"
+msgstr ""
+
+#: classes/bars.php:79
+msgctxt "view bar"
+msgid "View Bar"
+msgstr ""
+
+#: classes/bars.php:80
+msgctxt "no bars in trash"
+msgid "No Bars found in trash"
+msgstr ""
+
+#: classes/bars.php:391
+msgid "Bar Content"
+msgstr ""
+
+#: classes/bars.php:392
+msgid "General Settings"
+msgstr ""
+
+#: classes/bars.php:393
+msgid "Custom CSS"
+msgstr ""
+
+#: classes/bars.php:394 views/publish-meta-box.php:156
+#: views/publish-meta-box.php:157
+msgid "Publish"
+msgstr ""
+
+#: classes/bars.php:498
+msgid "Content Type"
+msgstr ""
+
+#: classes/bars.php:552
+msgid "Custom Text"
+msgstr ""
+
+#: classes/bars.php:553
+msgid "Latest Tweet"
+msgstr ""
+
+#: classes/bars.php:554
+msgid "Log In"
+msgstr ""
+
+#: classes/settings-page.php:56
+msgctxt "page title"
+msgid "BoomBar Settings"
+msgstr ""
+
+#: classes/settings-page.php:57
+msgctxt "menu title"
+msgid "Settings"
+msgstr ""
+
+#: classes/settings-page.php:117 classes/settings-page.php:160
+msgid ""
+"Requests to Twitter using the supplied Twitter Settings failed. Please "
+"verify the values for each input with the authentication keys from Twitter."
+msgstr ""
+
+#: classes/settings-page.php:121
+msgctxt "input validation error message"
+msgid "A value must be supplied for %s"
+msgstr ""
+
+#: classes/settings-page.php:127
+msgid "Settings saved."
+msgstr ""
+
+#: classes/settings-page.php:129
+msgid "Due to the error, the settings were not saved."
+msgid_plural "Due to the errors, the settings were not saved."
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/settings-page.php:183
+msgid "Twitter Settings"
+msgstr ""
+
+#: classes/settings-page.php:185
+msgid ""
+"Starting with the 1.1 version of Twitter's API, authentication keys are "
+"required in order to request information from Twitter. The authentication "
+"keys can be generated by creating a new Twitter application <a href=\"%1$s\" "
+"target=\"_blank\">here</a>. For help in creating the application and finding "
+"the correct keys, please view <a href=\"%2$s\" target=\"_blank\">this video</"
+"a>."
+msgstr ""
+
+#: classes/settings-page.php:190
+msgctxt "Twitter API consumer key"
+msgid "Consumer Key"
+msgstr ""
+
+#: classes/settings-page.php:198
+msgctxt "Twitter API consumer secret"
+msgid "Consumer Secret"
+msgstr ""
+
+#: classes/settings-page.php:206
+msgctxt "Twitter API access token"
+msgid "Access Token"
+msgstr ""
+
+#: classes/settings-page.php:214
+msgctxt "Twitter API access token secret"
+msgid "Access Token Secret"
+msgstr ""
+
+#: classes/settings-page.php:223
+msgid "Save Changes"
+msgstr ""
+
+#: lib/twitter-api/functions.php:50
+msgid ""
+"The request to load tweets from Twitter failed. The following Twitter API "
+"key is missing: %1$s. Please verify your Twitter Settings in <a href=\"%2$s"
+"\">BoomBar &gt; Settings</a> are valid."
+msgstr ""
+
+#: lib/twitter-api/functions.php:71
+msgid ""
+"The request to load tweets from Twitter failed. The supplied Twitter API "
+"keys were not accepted. Please verify your Twitter Settings in <a href=\"%s"
+"\">BoomBar &gt; Settings</a> are valid."
+msgstr ""
+
+#: lib/twitter-api/functions.php:77
+msgid ""
+"The request to load tweets from Twitter failed. The returned data was empty. "
+"This indicates a possible error with Twitters servers."
+msgstr ""
+
+#: lib/twitter-api/functions.php:83
+msgid ""
+"The request to load tweets from Twitter failed. The returned data was not in "
+"JSON format. This indicates a possible error with Twitters servers."
+msgstr ""
+
+#: lib/twitter-api/functions.php:86
+msgid ""
+"The request to load tweets from Twitter failed. The returned data is not an "
+"array. This indicates a possible error with Twitters servers."
+msgstr ""
+
+#: lib/updater/admin.php:140
+msgid ""
+"To receive automatic updates for %l, use the <a href=\"%s\">iThemes "
+"Licensing</a> page found in the Settings menu."
+msgstr ""
+
+#: lib/updater/admin.php:147 lib/updater/admin.php:153
+#: lib/updater/settings-page.php:302
+msgid "iThemes Licensing"
+msgstr ""
+
+#: lib/updater/admin.php:181
+msgid "Manage iThemes product licenses to receive automatic upgrade support"
+msgstr ""
+
+#: lib/updater/admin.php:181
+msgid "License"
+msgstr ""
+
+#: lib/updater/api.php:41 lib/updater/api.php:59
+msgid ""
+"<p>Unable to get changelog data at this time.</p><p>Error <code>%1$s</code>: "
+"%2$s</p>"
+msgstr ""
+
+#: lib/updater/api.php:45
+msgid ""
+"<p>Unable to get changelog data at this time.</p><p>Error: Unrecognized "
+"response from <code>wp_remote_get</code>.</p>"
+msgstr ""
+
+#: lib/updater/api.php:49
+msgid ""
+"<p>Unable to get changelog data at this time.</p><p>Error code <code>%1$s</"
+"code>: %2$s</p>"
+msgstr ""
+
+#: lib/updater/api.php:61
+msgid ""
+"<p>Unable to get changelog data at this time.</p><p>Error: Unrecognized "
+"response from iThemes API server.</p>"
+msgstr ""
+
+#: lib/updater/server.php:78
+msgid ""
+"The server could not be contacted. Requests are delayed for %d minute to "
+"allow the server to recover."
+msgid_plural ""
+"The server could not be contacted. Requests are delayed for %d minutes to "
+"allow the server to recover."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/updater/server.php:155
+msgid "The server was unable to be contacted."
+msgstr ""
+
+#: lib/updater/server.php:165
+msgid ""
+"An error occurred when communicating with the iThemes update server: %s (%s)"
+msgstr ""
+
+#: lib/updater/settings-page.php:77
+msgid ""
+"Incorrect password. Please make sure that you are supplying your iThemes "
+"membership username and password details."
+msgstr ""
+
+#: lib/updater/settings-page.php:81
+msgid ""
+"Invalid username. Please make sure that you are supplying your iThemes "
+"membership username and password details."
+msgstr ""
+
+#: lib/updater/settings-page.php:84
+msgid ""
+"The licensing server reports that the %1$s (%2$s) product is unknown. Please "
+"contact support for assistance."
+msgstr ""
+
+#: lib/updater/settings-page.php:87
+msgid ""
+"%1$s could not be licensed since the membership account is out of available "
+"licenses for this product. You can unlicense the product on other sites or "
+"upgrade your membership to one with a higher number of licenses in order to "
+"increase the amount of available licenses."
+msgstr ""
+
+#: lib/updater/settings-page.php:90
+msgid ""
+"%s could not be licensed due to an internal error. Please try to license %s "
+"again at a later time. If this problem continues, please contact iThemes "
+"support."
+msgstr ""
+
+#: lib/updater/settings-page.php:96
+msgid ""
+"An unknown error relating to the %1$s product occurred. Please contact "
+"iThemes support. Error details: %2$s"
+msgstr ""
+
+#: lib/updater/settings-page.php:98
+msgid ""
+"An unknown error occurred. Please contact iThemes support. Error details: %s"
+msgstr ""
+
+#: lib/updater/settings-page.php:129
+msgid "Settings saved"
+msgstr ""
+
+#: lib/updater/settings-page.php:136
+msgid ""
+"You must supply an iThemes membership username and password in order to "
+"license products."
+msgstr ""
+
+#: lib/updater/settings-page.php:138
+msgid ""
+"You must supply an iThemes membership username in order to license products."
+msgstr ""
+
+#: lib/updater/settings-page.php:140
+msgid ""
+"You must supply an iThemes membership password in order to license products."
+msgstr ""
+
+#: lib/updater/settings-page.php:142
+msgid ""
+"You must select at least one product to license. Ensure that you select the "
+"products that you wish to license in the listing below."
+msgstr ""
+
+#: lib/updater/settings-page.php:157
+msgid ""
+"An unknown server error occurred. Please try to license your products again "
+"at another time."
+msgstr ""
+
+#: lib/updater/settings-page.php:177
+msgid "Your product subscription has expired"
+msgstr ""
+
+#: lib/updater/settings-page.php:184
+msgid "Successfully licensed %l."
+msgstr ""
+
+#: lib/updater/settings-page.php:188 lib/updater/settings-page.php:193
+msgid "Unable to license %1$s. Reason: %2$s"
+msgstr ""
+
+#: lib/updater/settings-page.php:201
+msgid ""
+"You must supply an iThemes membership username and password in order to "
+"remove licenses."
+msgstr ""
+
+#: lib/updater/settings-page.php:203
+msgid ""
+"You must supply an iThemes membership username in order to remove licenses."
+msgstr ""
+
+#: lib/updater/settings-page.php:205
+msgid ""
+"You must supply an iThemes membership password in order to remove licenses."
+msgstr ""
+
+#: lib/updater/settings-page.php:207
+msgid ""
+"You must select at least one license to remove. Ensure that you select the "
+"licenses that you wish to remove in the listing below."
+msgstr ""
+
+#: lib/updater/settings-page.php:222
+msgid ""
+"An unknown server error occurred. Please try to remove licenses from your "
+"products again at another time."
+msgstr ""
+
+#: lib/updater/settings-page.php:243
+msgid "Unknown server error."
+msgstr ""
+
+#: lib/updater/settings-page.php:248
+msgid "Successfully removed license from %l."
+msgid_plural "Successfully removed licenses from %l."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/updater/settings-page.php:252
+msgid "Unable to remove license from %1$s. Reason: %2$s"
+msgstr ""
+
+#: lib/updater/settings-page.php:324
+msgid "Settings"
+msgstr ""
+
+#: lib/updater/settings-page.php:330
+msgid "Quick Release Updates"
+msgstr ""
+
+#: lib/updater/settings-page.php:337
+msgid "Enable quick release updates"
+msgstr ""
+
+#: lib/updater/settings-page.php:340
+msgid ""
+"Some products have quick releases that are created to solve specific issues "
+"that some users experience. In order to avoid causing users to have updates "
+"show up too frequently, automatic updates to these quick releases are "
+"disabled by default. Enabling this feature allows quick releases to be "
+"available to the automatic update system. Using this option is only "
+"recommended if support has requested that you enable it in order to receive "
+"a quick release. You should disable this option at a later time after "
+"confirming that the quick release solves the issue for you."
+msgstr ""
+
+#: lib/updater/settings-page.php:347
+msgid "Save Settings"
+msgstr ""
+
+#: lib/updater/settings-page.php:366 lib/updater/settings-page.php:397
+#: lib/updater/settings-page.php:521 lib/updater/settings-page.php:589
+msgid "Product"
+msgstr ""
+
+#: lib/updater/settings-page.php:367 lib/updater/settings-page.php:399
+msgid "Member"
+msgstr ""
+
+#: lib/updater/settings-page.php:368 lib/updater/settings-page.php:401
+msgid "Expiration"
+msgstr ""
+
+#: lib/updater/settings-page.php:369 lib/updater/settings-page.php:402
+msgid "Remaining Licenses"
+msgstr ""
+
+#: lib/updater/settings-page.php:385
+msgid "Licensed Products"
+msgstr ""
+
+#: lib/updater/settings-page.php:391 lib/updater/settings-page.php:515
+msgid "Select All"
+msgstr ""
+
+#: lib/updater/settings-page.php:400
+msgid "Product Status"
+msgstr ""
+
+#: lib/updater/settings-page.php:410
+msgid "unlimited"
+msgstr ""
+
+#: lib/updater/settings-page.php:451 lib/updater/settings-page.php:545
+msgid "Select %s"
+msgstr ""
+
+#: lib/updater/settings-page.php:471
+msgid "Remove Licenses"
+msgstr ""
+
+#: lib/updater/settings-page.php:505
+msgid "Unlicensed Products"
+msgstr ""
+
+#: lib/updater/settings-page.php:507
+msgid ""
+"The following products have not been licensed. Licensing a product gives you "
+"access to automatic updates from within WordPress."
+msgstr ""
+
+#: lib/updater/settings-page.php:508
+msgid ""
+"To license products, select the products you wish to license, enter your "
+"iThemes membership username and password, and press the License Products "
+"button."
+msgstr ""
+
+#: lib/updater/settings-page.php:509
+msgid "Need help? <a href=\"%s\">Click here for a quick video tutorial</a>."
+msgstr ""
+
+#: lib/updater/settings-page.php:561
+msgid "License Products"
+msgstr ""
+
+#: lib/updater/settings-page.php:581
+msgid "Unrecognized Products"
+msgstr ""
+
+#: lib/updater/settings-page.php:583
+msgid ""
+"The following products were not recognized by the licensing system. This can "
+"be due to a bug in the product code, a temporary server issue, or because "
+"the product is no longer supported."
+msgstr ""
+
+#: lib/updater/settings-page.php:584
+msgid ""
+"Please check this page again at a later time to see if the problem resolves "
+"itself. If the product remains, please contact <a href=\"%s\">iThemes "
+"support</a> and provide them with the details given below."
+msgstr ""
+
+#: lib/updater/settings-page.php:590
+msgid "Type"
+msgstr ""
+
+#: lib/updater/settings-page.php:591
+msgid "Package"
+msgstr ""
+
+#: lib/updater/settings-page.php:592
+msgid "Version"
+msgstr ""
+
+#: lib/updater/settings-page.php:593
+msgid "Server Response"
+msgstr ""
+
+#: lib/updater/settings-page.php:603
+msgid "Unknown Error"
+msgstr ""
+
+#: lib/updater/settings-page.php:642
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/updater/settings-page.php:644
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/updater/settings-page.php:646
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/updater/settings-page.php:648
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/updater/settings-page.php:651
+msgid "%s ago"
+msgstr ""
+
+#: views/add-edit-css-fields.php:2
+msgid "You can target this bar uniquely with the CSS id:"
+msgstr ""
+
+#: views/add-edit-css-fields.php:3
+msgid "Example:"
+msgstr ""
+
+#: views/add-edit-display-fields.php:7
+msgid "Audience:"
+msgstr ""
+
+#: views/add-edit-display-fields.php:9
+msgid "Everyone"
+msgstr ""
+
+#: views/add-edit-display-fields.php:10
+msgid "All authenticated users"
+msgstr ""
+
+#: views/add-edit-display-fields.php:11
+msgid "All unauthenticated visitors"
+msgstr ""
+
+#: views/add-edit-display-fields.php:12
+msgid "First time visitors"
+msgstr ""
+
+#: views/add-edit-display-fields.php:13
+msgid "Returning visitors"
+msgstr ""
+
+#: views/add-edit-display-fields.php:15
+msgid "Limit who can see the bar by toggling the above checkboxes."
+msgstr ""
+
+#: views/add-edit-display-fields.php:20
+msgid "Start Date:"
+msgstr ""
+
+#: views/add-edit-display-fields.php:22
+msgid "If set, the bar will not be displayed before this date. eg:"
+msgstr ""
+
+#: views/add-edit-display-fields.php:24
+msgid "End Date:"
+msgstr ""
+
+#: views/add-edit-display-fields.php:24
+msgid "If set, the bar will not be displayed after this date. eg:"
+msgstr ""
+
+#: views/add-edit-settings-fields.php:7
+msgid "Color Scheme:"
+msgstr ""
+
+#: views/add-edit-settings-fields.php:7
+msgid "What color scheme do you want to use with this bar?"
+msgstr ""
+
+#: views/add-edit-settings-fields.php:8
+msgid "Background Color:"
+msgstr ""
+
+#: views/add-edit-settings-fields.php:9
+msgid "Text Color:"
+msgstr ""
+
+#: views/add-edit-settings-fields.php:10
+msgid "Link Color:"
+msgstr ""
+
+#: views/add-edit-settings-fields.php:11
+msgid "Border Color:"
+msgstr ""
+
+#: views/add-edit-settings-fields.php:11
+msgid "Use the above fields to adjust the colors of the bar."
+msgstr ""
+
+#: views/add-edit-settings-fields.php:12
+msgid "Font:"
+msgstr ""
+
+#: views/add-edit-settings-fields.php:12
+msgid "Select a Google font to use with this bar"
+msgstr ""
+
+#: views/add-edit-settings-fields.php:13
+msgid "Default Bar?"
+msgstr ""
+
+#: views/add-edit-settings-fields.php:13
+msgid ""
+"Should this be the default bar for the site? (Individual posts and pages can "
+"override the site default)"
+msgstr ""
+
+#: views/add-edit-settings-fields.php:14
+msgid "Closable?"
+msgstr ""
+
+#: views/add-edit-settings-fields.php:14
+msgid "Can users choose to hide the bar?"
+msgstr ""
+
+#: views/add-edit-settings-fields.php:15
+msgid "Remain Closed:"
+msgstr ""
+
+#: views/add-edit-settings-fields.php:15
+msgid "If a visitor closes the bar, when should it reappear?"
+msgstr ""
+
+#: views/add-edit-settings-fields.php:16
+msgid "Location:"
+msgstr ""
+
+#: views/add-edit-settings-fields.php:16
+msgid "Top"
+msgstr ""
+
+#: views/add-edit-settings-fields.php:16
+msgid "Bottom"
+msgstr ""
+
+#: views/add-edit-settings-fields.php:16
+msgid "Should this bar be displayed at the top or the bottom of the page?"
+msgstr ""
+
+#: views/add-edit-settings-fields.php:17
+msgid "Position:"
+msgstr ""
+
+#: views/add-edit-settings-fields.php:17
+msgid "Fixed"
+msgstr ""
+
+#: views/add-edit-settings-fields.php:17
+msgid ""
+"Fixed bars remain visible when scrolling. Static bars scroll away with the "
+"rest of the content."
+msgstr ""
+
+#: views/add-edit-settings-fields.php:18
+msgid "Clicked Links:"
+msgstr ""
+
+#: views/add-edit-settings-fields.php:18
+msgid "Same"
+msgstr ""
+
+#: views/add-edit-settings-fields.php:18
+msgid "New"
+msgstr ""
+
+#: views/add-edit-settings-fields.php:18
+msgid ""
+"Should your links open in the same tab / window or a new tab / window based "
+"on your browser settings. "
+msgstr ""
+
+#: views/add-edit-type-fields.php:2
+msgid "Type of Content:"
+msgstr ""
+
+#: views/add-edit-type-fields.php:4
+msgid "Bar Text:"
+msgstr ""
+
+#: views/add-edit-type-fields.php:4
+msgid "This is the content of your Boom Bar."
+msgstr ""
+
+#: views/add-edit-type-fields.php:7
+msgid "Link Text:"
+msgstr ""
+
+#: views/add-edit-type-fields.php:7
+msgid "This will appear as a link after the bar's main content."
+msgstr ""
+
+#: views/add-edit-type-fields.php:10
+msgid "Link URL:"
+msgstr ""
+
+#: views/add-edit-type-fields.php:10
+msgid "This is the URL for the Link Text."
+msgstr ""
+
+#: views/add-edit-type-fields.php:13
+msgid "Only used with 'Text' bar type."
+msgstr ""
+
+#: views/add-edit-type-fields.php:15
+msgid "Twitter Username:"
+msgstr ""
+
+#: views/add-edit-type-fields.php:15
+msgid "The username for the Twitter account."
+msgstr ""
+
+#: views/add-edit-type-fields.php:16
+msgid "Only used with 'Twitter' bar type."
+msgstr ""
+
+#: views/publish-meta-box.php:15
+msgid "Save"
+msgstr ""
+
+#: views/publish-meta-box.php:22
+msgid "Save Draft"
+msgstr ""
+
+#: views/publish-meta-box.php:24
+msgid "Save as Pending"
+msgstr ""
+
+#: views/publish-meta-box.php:33
+msgid "Preview Changes"
+msgstr ""
+
+#: views/publish-meta-box.php:37
+msgid "Preview"
+msgstr ""
+
+#: views/publish-meta-box.php:50
+msgid "Status:"
+msgstr ""
+
+#: views/publish-meta-box.php:55 views/publish-meta-box.php:82
+msgid "Privately Published"
+msgstr ""
+
+#: views/publish-meta-box.php:58 views/publish-meta-box.php:80
+msgid "Published"
+msgstr ""
+
+#: views/publish-meta-box.php:61 views/publish-meta-box.php:84
+msgid "Scheduled"
+msgstr ""
+
+#: views/publish-meta-box.php:64 views/publish-meta-box.php:86
+msgid "Pending Review"
+msgstr ""
+
+#: views/publish-meta-box.php:68 views/publish-meta-box.php:88
+#: views/publish-meta-box.php:90
+msgid "Draft"
+msgstr ""
+
+#: views/publish-meta-box.php:74
+msgid "Edit"
+msgstr ""
+
+#: views/publish-meta-box.php:93
+msgid "OK"
+msgstr ""
+
+#: views/publish-meta-box.php:94
+msgid "Cancel"
+msgstr ""
+
+#: views/publish-meta-box.php:112
+msgid "Scheduled for: <b>%1$s</b>"
+msgstr ""
+
+#: views/publish-meta-box.php:114
+msgid "Published on: <b>%1$s</b>"
+msgstr ""
+
+#: views/publish-meta-box.php:116 views/publish-meta-box.php:124
+msgid "Publish <b>immediately</b>"
+msgstr ""
+
+#: views/publish-meta-box.php:118
+msgid "Schedule for: <b>%1$s</b>"
+msgstr ""
+
+#: views/publish-meta-box.php:120
+msgid "Publish on: <b>%1$s</b>"
+msgstr ""
+
+#: views/publish-meta-box.php:139
+msgid "Delete Permanently"
+msgstr ""
+
+#: views/publish-meta-box.php:141
+msgid "Move to Trash"
+msgstr ""
+
+#: views/publish-meta-box.php:153 views/publish-meta-box.php:154
+msgid "Schedule"
+msgstr ""
+
+#: views/publish-meta-box.php:160 views/publish-meta-box.php:161
+msgid "Submit for Review"
+msgstr ""
+
+#: views/publish-meta-box.php:164 views/publish-meta-box.php:165
+msgid "Update"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "iThemes Boom Bar"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://ithemes.com/purchase/boombar/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Add notification bars to the top of your site."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "iThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://ithemes.com"
+msgstr ""

@@ -1,0 +1,48 @@
+Plugin Name: WP Smush Pro
+Author: Saurabh Shukla & Umesh Kumar
+
+Change Log:
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+1.1 - 2015-03-27 - Umesh Kumar
+----------------------------------------------------------------------
+- New:     New API Servers added for faster optimization
+- Fixed:   PHP warning for broken files
+
+1.0.3.1 - 2015-03-26 - Umesh Kumar
+----------------------------------------------------------------------
+- New:     Suggest manual smushing for smaller bulk request
+- New:     Allow media sorting in list view as per smush status
+- Updated: Bulk smush query
+- Updated: Wait time estimation
+
+1.0.3 - 2015-02-27 - Umesh Kumar
+----------------------------------------------------------------------
+- New:   Added constant 'WPMUDEV_APIKEY', to specify WPMU membership key explicitly
+- Fixed: Plugin activation issue in Multisite
+- Fixed: Decode URLs received from API to remove any encoded characters
+
+1.0.2 - 2015-02-03 - Umesh Kumar
+----------------------------------------------------------------------
+- Fixed: Use options instead of transient to fix W3TC object caching issue
+- New:   Modify email address for bulk smush notification
+
+1.0.1 - 2015-01-01 - Umesh Kumar
+----------------------------------------------------------------------
+- New:      CDN, suggestion to whitelist IP
+- New:      Use Ajax to check API status
+- New:      Limit concurrent pending single smush to 1000, to avoid hogging up of server resources
+- Fixed:    Db cleanup on uninstall
+- Fixed:    Remove unnecessary meta on install
+- Fixed:    Request status for removed bulk requests
+- Updated:  Allowed file types (JPEF, PNG, GIF )
+- Updated:  Wait Time reduced
+
+
+1.0 - 2014-11-24 - Saurabh Shukla, Umesh Kumar
+----------------------------------------------------------------------
+- First release
+
+
+112003-1427642383-au

@@ -1,0 +1,35 @@
+#bar_text, #bar_link_text, #bar_link_url, #bar_twitter_un {
+	width: 350px;
+}
+#bar_bg_color, #bar_border_color, #bar_text_color, #bar_link_color {
+	width: 60px;
+}
+ul li label, .settings-label {
+	font-family: sans-serif;
+	vertical-align: top;
+	min-width: 130px;
+	display: inline-block;
+	color: #000;
+}
+span.description {
+	margin-left: 130px;
+}
+#bar_custom_css {
+	height: 12em;
+	width: 98%;
+	font-family: 'andale mono', 'lucida console', monospace;
+}
+
+/** ---:[ the icon ]:--- */
+.icon32-posts-it_boom_bar {
+	background-image: url('images/icon.png') !important;
+	background-position: 2px 0px !important;
+}
+@media print, (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+	.icon32-posts-it_boom_bar {
+		background-image: url('images/icon2x.png') !important;
+		background-size: 32px 32px !important;
+		background-position: 2px 0px !important;
+	}
+	
+}

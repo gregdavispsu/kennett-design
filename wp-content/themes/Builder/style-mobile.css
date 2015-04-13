@@ -1,0 +1,12 @@
+.builder-module-footer .builder-module-element .alignleft,
+.builder-module-footer .builder-module-element .alignright {
+	float: none;
+	margin: 0;
+	text-align: left;
+}
+.builder-module-content .builder-module-element .alignleft,
+.builder-module-content .builder-module-element .alignright {
+	float: none;
+	margin: 0;
+	text-align: left;
+}

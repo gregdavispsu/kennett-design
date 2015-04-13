@@ -1,0 +1,126 @@
+# Translation of Essence Dark (Builder) 4.0.2 by iThemes.
+# Copyright (C) 2012 iThemes
+# This file is distributed under the same license as the Essence Dark (Builder) package.
+# Chris Jean <support@ithemes.com>, 2012.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Essence Dark (Builder) 4.0.2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/BuilderChild-Essence-Dark\n"
+"POT-Creation-Date: 2012-12-28 09:05-0600\n"
+"PO-Revision-Date: 2012-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Chris Jean <support@ithemes.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: comments.php:22
+msgid "Comments"
+msgstr ""
+
+#: comments.php:40
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:40
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:47
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:52
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:56
+msgid "Name"
+msgstr ""
+
+#: comments.php:56 comments.php:61
+msgid "<span class='required'>(*)</span>"
+msgstr ""
+
+#: comments.php:61
+msgid "Mail (will not be published)"
+msgstr ""
+
+#: comments.php:66
+msgid "Website"
+msgstr ""
+
+#: comments.php:74
+msgid "Submit Comment"
+msgstr ""
+
+#: comments.php:84
+msgid "Comments are closed."
+msgstr ""
+
+#: index.php:29
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: index.php:29
+msgid "Comments (0)"
+msgstr ""
+
+#: index.php:29
+msgid "Comments (1)"
+msgstr ""
+
+#: index.php:29
+msgid "Comments (%)"
+msgstr ""
+
+#: index.php:36
+msgid "Read More &rarr;"
+msgstr ""
+
+#: index.php:52
+msgid "&laquo; Previous Page"
+msgstr ""
+
+#: index.php:53
+msgid "Next Page &raquo;"
+msgstr ""
+
+#: page.php:24 single.php:34
+msgid "Pages:"
+msgstr ""
+
+#: page.php:25 single.php:35
+msgid "Edit this entry."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Essence Dark (Builder)"
+msgstr ""
+
+#. #-#-#-#-#  BuilderChild-Essence-Dark.pot (Essence Dark (Builder) 4.0.2)  #-#-#-#-#
+#. Theme URI of the plugin/theme
+#. #-#-#-#-#  BuilderChild-Essence-Dark.pot (Essence Dark (Builder) 4.0.2)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://ithemes.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A Responsive Builder Child Theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "iThemes"
+msgstr ""
+
+#. Tags of the plugin/theme
+msgid ""
+"blog, theme options, multiple layouts, multiple color schemes, responsive"
+msgstr ""
