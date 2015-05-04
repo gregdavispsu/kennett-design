@@ -8,8 +8,10 @@ Thumbs.db
 
 # wordpress specific
 wp-config.php
+
 wp-content/uploads/*
 !wp-content/uploads/espresso/
+wp-content/uploads/espresso/.DS_Store
 wp-content/blogs.dir/
 wp-content/upgrade/*
 wp-content/backup-db/*
