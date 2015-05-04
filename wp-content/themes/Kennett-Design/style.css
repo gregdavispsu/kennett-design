@@ -1316,6 +1316,15 @@ a.ui-state-active.reg-now-btn {
 	color: navy;
 }
 
+.pmt-paid {
+	color: green;
+}
+
+.pmt-unpaid {
+	color: red;
+	font-weight: bold;
+}
+
 /** Testimonies **/
 
 .gform_wrapper textarea {
