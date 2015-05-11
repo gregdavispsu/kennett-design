@@ -10,3 +10,32 @@
 	margin: 0;
 	text-align: left;
 }
+
+/***** 38solutions  *******/
+
+/* Support Ticket #182 */
+
+body {
+	background: #FFFFFF;
+}
+
+.builder-module-background-wrapper {
+	background: #FFFFFF;
+	border-bottom: 1px solid #696969;
+}
+
+.builder-container {
+  margin: 0 2px;
+}
+
+.builder-module-element {
+  padding: 0 1px;
+}
+
+.entry-header {
+  clear: both;
+  background: #f5f5f5;
+  padding: 1px;
+}
+
+/* Support Ticket #182 */
