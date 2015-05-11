@@ -1,7 +1,7 @@
 <?php
 
 add_theme_support( 'builder-3.0' );
-add_theme_support( 'builder-responsive', array( 'mobile-width' => '450px' ) );
+add_theme_support( 'builder-responsive', array( 'mobile-width' => '450px' ) ); /* Support Ticket #182 */
 
 // Alternate Module Styles
 if ( ! function_exists( 'it_builder_loaded' ) ) {
